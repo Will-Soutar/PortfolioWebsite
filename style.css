@@ -1,0 +1,201 @@
+/* Portfolio Website */
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+h1 {
+  /* text-align: center; */
+  font-size: 3rem;
+  padding: 70px 0 30px;
+}
+
+h2 {
+  text-align: center;
+  padding: 40px 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.project-info {
+  text-align: left;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+
+}
+
+ul {
+  padding: 0 10%;
+}
+
+.bio {
+  margin: 0 36%;
+  padding: 0 0 40px;
+  text-align: center;
+}
+
+
+.tech-stack {
+  word-spacing: 2rem;
+  padding: 20px 0 20px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.fa-css3-alt {
+  padding: 0 10px;
+}
+
+.web-dev {
+  font-size: 1.3rem;
+  padding: 0 0 30px;
+}
+
+.logo {
+  font-size: 1.2rem;
+}
+
+.grid {
+  display: grid;
+  place-items: center;
+}
+
+
+.resume-button {
+
+}
+.resume-button:hover {
+  color: black;
+}
+.social-icons:hover {
+  color: grey;
+}
+
+.social-icons {
+  color: #304F65;
+  padding: 40px 7px 0;
+  font-size: 1.5rem;
+}
+
+.fa-linkedin {
+  color: #0072b1;
+}
+.fa-github {
+  color: black;
+}
+.fa-twitter {
+  color: #1DA1F2;
+}
+
+.box {
+  padding: 0 3%;
+}
+
+.portfolio {
+  margin: 4% 10%;
+}
+
+.github-live {
+  text-align: center;
+  padding: 20px 0 20px;
+  margin: 20px 0 0;
+}
+
+
+.git-live-button:hover {
+  color: black;
+  background-color: #f2f2f2
+}
+
+.git-live-button a:hover {
+  color: black;
+}
+
+
+.project-info {
+  padding: 20px 0 0;
+}
+
+.fa-html5 {
+  color: darkorange;
+}
+
+.fa-css3-alt {
+  color: blue;
+}
+
+.fa-bootstrap {
+  color: #7952b3;
+}
+
+.fa-js-square {
+  color: #EFCF00;
+}
+
+/* Nav Bar section */
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.navbar a:hover {
+  color: grey;
+}
+.navbar {
+  background-color: #304F65;
+  color: #fff;
+  font-size: 1rem;
+  padding: 30px;
+}
+
+.right-nav {
+  padding: 0 10px;
+}
+
+.copyright {
+  text-align: center;
+}
+
+
+/* Contact Page */
+
+.contact-box {
+  height: 30rem;
+  width: 25rem;
+  background-color: #f2f2f2;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-section {
+  padding: 3% 0;
+  text-align: center;
+}
+
+.loc-email {
+  padding: 50px 0;
+}
+
+.contact-info {
+  text-align: center;
+  font-size: 2rem;
+  padding: 7% 0 5%;
+}
+
+
+/* Resume Section */
+
+embed {
+  padding: 40px 0 0;
+}
