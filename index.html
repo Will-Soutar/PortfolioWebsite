@@ -3,21 +3,23 @@
   <head>
     <meta charset="utf-8">
     <title>Will Soutar</title>
-
+ 
     <!-- Google Fonts -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
 
-    <!--Bootstrap  css-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
     <!-- Custom Styles -->
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <!--Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <!--Font Awesome -->
     <script src="https://kit.fontawesome.com/3715e2b643.js" crossorigin="anonymous"></script>
@@ -26,7 +28,7 @@
 
   </head>
 
-  <body>
+  <body style="background-color: #f5f5f5">
     <header>
       <nav class="navbar">
         <ul>
@@ -43,16 +45,34 @@
 
     <!-- Top Section -->
 
-    <div class="grid">
-      <h1>Will Soutar</h1>
+    <div class="justify-content-center container-fluid">
+      <div class="background-cube">
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+       <div class="cube"></div>
+       <h1 class="grid">Will Soutar</h1>
       <h2 class="web-dev">Web Developer</h2>
-      <p class="bio">Hi there! I'm Will Soutar. I'm passionate about learning web development. I am transitioning from a marketing background and have been learning through online courses / teaching myself for 6 months. </p>
-      <button type="button" class="btn btn-outline-secondary resume-button" name="button"><a class="resume-button" href="resume.html" target="_blank">Resume</a></button>
-      <div class="icons">
-        <a href="https://www.linkedin.com/in/will-soutar-304bb7177"><i class="social-icons fa-brands fa-linkedin"></i></a>
-        <a href="https://github.com/Will-Soutar"><i class="social-icons fa-brands fa-github"></i></a>
-        <a href="https://twitter.com/willsoutar"><i class="social-icons fa-brands fa-twitter"></i></a>
+      <p class="bio">Hi there! I'm Will Soutar and I'm passionate about web development. I transitioned from a marketing background and have been working in web development through my past job (7 months) and my current job (3 months). </p>
+      <div class="grid">
+      <button type="button" class="grid btn btn-outline-secondary resume-button" name="button"><a class="resume-button" href="resume.html" target="_blank">Resume</a></button>
       </div>
+      <div class="socials">
+        <a class="justify-content-center" href="https://www.linkedin.com/in/will-soutar-304bb7177"><i class="social-icons fa-brands fa-linkedin"></i></a>
+        <a class="justify-content-center" href="https://github.com/Will-Soutar"><i class="social-icons fa-brands fa-github"></i></a>
+        <a class="justify-content-center" href="https://twitter.com/willsoutar"><i class="social-icons fa-brands fa-twitter"></i></a>
+      </div>
+     </div>
+      
+    </div>
+
+
+
+
+
+    <div>
+      <h2 class="grid">Portfolio Projects</h1>
     </div>
 
 
@@ -60,6 +80,76 @@
 
 
     <div class="row portfolio">
+
+      
+
+      <div class="box col-lg-6 col-md-6">
+
+        <div class="">
+          <h2 class="">Blog Website</h2>
+          <a><img src="images/Habiit Homes Home Page.png" alt=""></a>
+        </div>
+        <div class="row">
+          <!--
+          <div class="github-live col-xl-6 col-lg-6 col-md-6 col-sm-6">
+            <button type="button" class="btn btn-outline-secondary git-live-button" name="button"><a href="https://github.com/Will-Soutar/GOAThlete" target="_blank">Github</a></button>
+
+          </div>
+        -->
+        
+         
+          <div class="tech-stack github-live col-xl-6 col-lg-6 col-md-6 col-sm-6">
+            <i class="fa-brands fa-wordpress"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-brands fa-elementor"></i>
+            </div>
+            <div class="justify-content-center github-live col-xl-6 col-lg-6 col-md-6 col-sm-6">
+              <a href="https://habiithomes.ca/" target="_blank"><button type="button" class="btn btn-outline-secondary git-live-button" name="button">Live</button></a>
+            </div>
+
+
+          
+          <p>This personal website project was built using WordPress and the blog posts were generated using ChatGPT. The idea for this
+            website was to focus on building a blog website utilizing post templates, exploring AI generated blog posts and 
+            growing SEO.
+          </p>
+
+        </div>
+      </div>
+
+
+      <div class="box col-lg-6 col-md-6">
+
+        <div class="">
+          <h2>Client Website</h2>
+          <img src="images/Bev Soutar Beauty Home Page.png" alt="">
+        </div>
+        <div class="row">
+          <!--
+          <div class="github-live col-xl-6 col-lg-6 col-md-6 col-sm-6">
+            <button type="button" class="btn btn-outline-secondary git-live-button" name="button"><a href="https://github.com/Will-Soutar/Dice-game" target="_blank">Github</a></button>
+          </div>
+        -->
+          
+          <div class="tech-stack github-live col-xl-6 col-lg-6 col-md-6 col-sm-6">
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-brands fa-js-square"></i>
+          </div>
+          <div class="justify-content-center github-live col-xl-6 col-lg-6 col-md-6 col-sm-6">
+            <a href="https://www.bevsoutarbeauty.com/" target="_blank"><button type="button" class="btn btn-outline-secondary git-live-button" name="button">Live</button></a>
+          </div>
+
+          
+          <p>The client website was built using a website builder with elements of custom code to add functionality. 
+            The client request was to have landing pages for their customers to click through and guide into their funnel. 
+            Through weekly calls and emails, I was able to build out their website while focusing on responsive design, SEO and 
+            growing sales.
+          </p>
+
+        </div>
+      </div>
+
 
 
         <div class="box col-lg-6 col-md-6">
@@ -69,21 +159,21 @@
             <a><img src="images/goathlete.png" alt=""></a>
           </div>
           <div class="row">
-            <div class="github-live col-xl-6 col-lg-6 col-md-6 col-sm-6">
-              <button type="button" class="btn btn-outline-secondary git-live-button" name="button"><a href="https://github.com/Will-Soutar/GOAThlete" target="_blank">Github</a></button>
-
+            <div class="github-live col-xl-4 col-lg-4 col-md-4 col-sm-4">
+              <a href="https://github.com/Will-Soutar/GOAThlete" target="_blank"><button type="button" class="btn btn-outline-secondary git-live-button" name="button">Github</button></a>
             </div>
-            <div class="github-live col-xl-6 col-lg-6 col-md-6 col-sm-6">
-              <button type="button" class="btn btn-outline-secondary git-live-button" name="button"><a href="https://will-soutar.github.io/GOAThlete/" target="_blank">Live</a></button>
+            <div class="tech-stack github-live col-xl-4 col-lg-4 col-md-4 col-sm-4">
+              <i class="fa-brands fa-html5"></i>
+              <i class="fa-brands fa-css3-alt"></i>
+              <i class="fa-brands fa-bootstrap"></i>
+              </div>
+            <div class="github-live col-xl-4 col-lg-4 col-md-4 col-sm-4">
+              <a href="https://will-soutar.github.io/GOAThlete/" target="_blank"><button type="button" class="btn btn-outline-secondary git-live-button" name="button">Live</button></a>
             </div>
 
 
-            <p class="tech-stack">
-            <i class="fa-brands fa-html5"></i>
-            <i class="fa-brands fa-css3-alt"></i>
-            <i class="fa-brands fa-bootstrap"></i>
-            </p>
-            <p>The idea for this project was to replicate a start-up website for a phone application. This app would be used for comparing the best athletes in a chosen league. Two players would be presented and the user would then have to decide which player is better. The webpage uses HTML, CSS and Bootstrap as the library for this project. A challenged faced was allowing the webpage to be responsive on mobile considering it has a navbar and columns made with Bootstrap. Another challenge was allowing the phone image to lay under the next sections background colour.</p>
+            
+            <p>The idea for this project was to replicate a start-up website for a mobile application. This app would be used for comparing the best athletes in a chosen league. Two players would be presented and the user would then have to decide which player is better. The webpage uses HTML, CSS and Bootstrap as the library for this project. A challenged faced was allowing the webpage to be responsive on mobile considering it has a navbar and columns made with Bootstrap. Another challenge was allowing the phone image to lay under the next sections background colour.</p>
 
           </div>
         </div>
@@ -96,44 +186,20 @@
             <img src="images/dice-site.png" alt="">
           </div>
           <div class="row">
-            <div class="github-live col-xl-6 col-lg-6 col-md-6 col-sm-6">
-              <button type="button" class="btn btn-outline-secondary git-live-button" name="button"><a href="https://github.com/Will-Soutar/Dice-game" target="_blank">Github</a></button>
+            <div class="github-live col-xl-4 col-lg-4 col-md-4 col-sm-4">
+              <a href="https://github.com/Will-Soutar/Dice-game" target="_blank"><button type="button" class="btn btn-outline-secondary git-live-button" name="button">Github</button></a>
             </div>
-            <div class="github-live col-xl-6 col-lg-6 col-md-6 col-sm-6">
-              <button type="button" class="btn btn-outline-secondary git-live-button" name="button"><a href="https://will-soutar.github.io/Dice-game/" target="_blank">Live</a></button>
-            </div>
-
-            <p class="tech-stack">
-            <i class="fa-brands fa-html5"></i>
-            <i class="fa-brands fa-css3-alt"></i>
-            <i class="fa-brands fa-js-square"></i>
-            </p>
-            <p>This project was extremly fun and texted my knowledge / logical skills in JavaScript. The challenge was having both dice select random sides and based off each roll it would evaluate a winner. The Document Object Model (DOM) was also used in this project to select the element needing to change based off the dice roll.</p>
-
-          </div>
-        </div>
-
-
-        <div class="box col-lg-6 col-md-6">
-
-          <div class="">
-            <h2>CV - CSS</h2>
-            <a><img src="images/cv-css.png" alt=""></a>
-          </div>
-          <div class="row">
-            <div class="github-live col-xl-6 col-lg-6 col-md-6 col-sm-6">
-              <button type="button" class="btn btn-outline-secondary git-live-button" name="button"><a href="https://github.com/Will-Soutar/cv-css" target="_blank">Github</a></button>
-            </div>
-            <div class="github-live col-xl-6 col-lg-6 col-md-6 col-sm-6">
-              <button type="button" class="btn btn-outline-secondary git-live-button" name="button"><a href="https://will-soutar.github.io/cv-css/" target="_blank">Live</a></button>
+            <div class="tech-stack github-live col-xl-4 col-lg-4 col-md-4 col-sm-4">
+              <i class="fa-brands fa-html5"></i>
+              <i class="fa-brands fa-css3-alt"></i>
+              <i class="fa-brands fa-js-square"></i>
+              </div>
+            <div class="github-live col-xl-4 col-lg-4 col-md-4 col-sm-4">
+              <a href="https://will-soutar.github.io/Dice-game/" target="_blank"><button type="button" class="btn btn-outline-secondary git-live-button" name="button">Live</button></a>
             </div>
 
-            <p class="tech-stack">
-            <i class="fa-brands fa-html5"></i>
-            <i class="fa-brands fa-css3-alt"></i>
-            </p>
-            <p>This project displays a more personal & fun landing page as a portfolio CV by using various techniques with HTML & CSS. The project used my knowledge of absolute positioning of elements and the float property.</p>
-
+            
+            <p>This project was extremly fun and tested my knowledge / logical skills in JavaScript. The challenge was having both dice select random sides and based off each roll it would evaluate a winner. The Document Object Model (DOM) was also used in this project to select the element needing to change based off the dice roll.</p>
 
           </div>
         </div>
@@ -145,7 +211,7 @@
 
     <footer>
       <div class="copyright">
-        <p>copyright &copy; 2022 Will Soutar</p>
+        <p>copyright &copy; 2023 Will Soutar</p>
       </div>
 
     </footer>
